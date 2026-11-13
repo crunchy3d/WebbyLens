@@ -1,0 +1,11 @@
+#define FILE_DESC "WebbyLens - Android phone as webcam and microphone"
+#define FILE_NAME "WebbyLens.exe"
+#include "../common/version.rc"
+
+// application icon (first icon = the one Explorer shows)
+1   ICON "webbylens.ico"
+// tray icons for the states: live, standby/waiting, sound only, paused
+101 ICON "tray-live.ico"
+102 ICON "tray-standby.ico"
+103 ICON "tray-sound.ico"
+104 ICON "tray-paused.ico"
