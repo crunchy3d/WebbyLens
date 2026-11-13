@@ -1,0 +1,26 @@
+# build output
+/bin/
+/build/
+*.obj
+*.res
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# third-party binaries (fetched by scripts/fetch-deps.ps1, not stored in git)
+/third_party/scrcpy-server
+/third_party/platform-tools/
+/third_party/*.zip
+
+# installer output
+/installer/output/
+
+# private notes and Office lock files
+*.docx
+~$*
+
+# editors
+.vs/
+.vscode/
+*.user
